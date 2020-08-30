@@ -1,0 +1,56 @@
+@import "header.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+}
+
+/*SECTION 0*/
+.section-container {
+    margin: 0 230px;
+}
+
+.intro {
+    padding: 6em 0;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.my-name {
+    border-bottom: 4px solid #17a8e3;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links-list {
+    list-style-type: none;
+}
+
+.social-link-element {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.social-icon {
+    font-size: 40px;
+    color: #000;
+}
+
+.social-icon:hover {
+    color: #17a8e3;
+}
+
