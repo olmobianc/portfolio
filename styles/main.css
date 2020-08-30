@@ -23,3 +23,14 @@ body {
     margin: 0 230px;
 }
 
+.dark-background{
+    background: #212028;
+    color: white;
+    padding: 120px 50px 150px;
+}
+
+.white-background {
+    background: white;
+    padding: 120px 50px 150px;
+}
+
