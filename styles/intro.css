@@ -9,8 +9,13 @@
     font-weight: 500;
 }
 
-.my-name {
-    border-bottom: 4px solid #17a8e3;
+.blue-underline {
+    text-decoration: underline #17a8e3;
+}
+
+.intro-sub-title {
+    font-size: 24px;
+    padding: 24px 0;
 }
 
 .social-links {
