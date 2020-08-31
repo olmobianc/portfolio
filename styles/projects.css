@@ -1,0 +1,16 @@
+.carousel-wrapper {
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transform-style: preserve-3d;
+}
+
+.carousel-photo {
+    padding: 10px;
+    margin: 0 10px;
+    width: 20%;
+    height: auto;
+}
