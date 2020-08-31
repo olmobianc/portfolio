@@ -23,3 +23,16 @@
     margin: 12px 24px;
     font-size: 17px;
 }
+
+.sticky-navbar {
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 999;
+}
+
+/* To add whit JS */
+.border-bottom-added {
+    border-bottom: 1px solid #ccc;
+}
+

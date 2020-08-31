@@ -18,9 +18,12 @@ body {
     color: #000;
 }
 
-/*SECTION 0*/
 .section-container {
     margin: 0 230px;
+}
+
+.section-title {
+    font-size: 60px;
 }
 
 .dark-background{
