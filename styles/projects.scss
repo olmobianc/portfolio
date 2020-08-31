@@ -1,9 +1,9 @@
-
+$text-color: rgb(108, 121, 134);
 
 .carousel-wrapper {
     margin-top: 80px;
     overflow: hidden;
-    color: white;
+    color: $text-color;
 }
 
 .carousel {
@@ -24,6 +24,7 @@
 
 .carousel-photo:hover {
     border: 3px solid white;
+    $text-color: white;
 }
 
 .project-number {
