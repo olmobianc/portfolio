@@ -2,14 +2,14 @@
 
 .carousel-wrapper {
     margin-top: 80px;
-    overflow: hidden;
     color: white;
 }
 
 .carousel {
     display: grid;
+    margin-top: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 85px;
     grid-template-areas:
     "left"
     "mid"
@@ -18,16 +18,16 @@
 
 .carousel-photo {
     width: 100%;
-    height: auto;
+    opacity: 80%;
+    height: 83%;
     margin-bottom: 30px;
+    transition: transform .2s; /*transform will aplly after 0.2 sec*/
 }
 
 .carousel-photo:hover {
     border: 3px solid white;
-}
-
-.project-number {
-    margin-bottom: 60px;
+    opacity: 95%;
+    transform: scale(1.2);
 }
 
 .project-info {
