@@ -57,7 +57,6 @@
 
 .item-button {
     text-align: center;
-    opacity: 90%;
     background: #55b369;
     font-size: 14px;
     color: #fff;
@@ -73,5 +72,5 @@
 }
 
 .item-button:hover {
-    opacity: 100%;
+    opacity: 80%;
 }

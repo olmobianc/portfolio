@@ -24,6 +24,15 @@
     font-size: 17px;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #17a8e3;
+}
+
 .sticky-navbar {
     position: fixed;
     background: white;
