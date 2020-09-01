@@ -45,3 +45,7 @@
     border-bottom: 1px solid #ccc;
 }
 
+.active {
+    color: #17a8e3;
+}
+
