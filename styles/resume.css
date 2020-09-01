@@ -1,3 +1,8 @@
+.resume-background {
+    background: white;
+    padding: 120px 50px 70px;
+}
+
 #resume {
     text-align: center;
 }
@@ -17,4 +22,10 @@
 
 .download-resume:hover {
     opacity: 100%;
+}
+
+.line-resume-container {
+    background: #212028;
+    color: white;
+    padding-bottom: 150px;
 }
