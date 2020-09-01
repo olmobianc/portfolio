@@ -18,15 +18,14 @@
 
 .carousel-photo {
     width: 100%;
-    opacity: 80%;
+    opacity: 90%;
     height: 83%;
     margin-bottom: 30px;
     transition: transform .2s; /*transform will aplly after 0.2 sec*/
 }
 
 .carousel-photo:hover {
-    border: 3px solid white;
-    opacity: 95%;
+    opacity: 99%;
     transform: scale(1.2);
 }
 
