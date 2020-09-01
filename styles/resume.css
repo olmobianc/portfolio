@@ -1,0 +1,20 @@
+#resume {
+    text-align: center;
+}
+
+.download-resume {
+    padding: 12px 20px;
+    margin: 75px 0 50px;
+    opacity: 90%;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000000;
+    border: 4px solid black;
+    background: #F7932D linear-gradient(251.42deg, #F7932D 9.99%, #FFC700 100%);
+}
+
+.download-resume:hover {
+    opacity: 100%;
+}
