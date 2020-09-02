@@ -1,0 +1,15 @@
+.footer-container {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #464d5d;
+    letter-spacing: 2px;
+}
+
+.dark {
+    color: black;
+    border-bottom: 3px solid #17a8e3;
+}
