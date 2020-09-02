@@ -37,3 +37,17 @@ body {
     padding: 120px 50px 150px;
 }
 
+.logo-end {
+    color: #c5610f;
+    font-size: 1.3em;
+}
+
+.blue-underline {
+    /*text-decoration: underline #17a8e3;*/
+    text-decoration: underline #c5610f;
+}
+
+.blue-bottom-border {
+    border-bottom: 3px solid #17a8e3;
+}
+

@@ -57,7 +57,7 @@
 
 .item-button {
     text-align: center;
-    background: #55b369;
+    background: #c5610f;
     font-size: 14px;
     color: #fff;
     font-weight: 600;
@@ -72,5 +72,5 @@
 }
 
 .item-button:hover {
-    opacity: 80%;
+    background-color: #ce8040;
 }

@@ -7,11 +7,7 @@
 .header-logo {
     flex: 1;
     letter-spacing: 1px;
-}
-
-.logo-end {
-    color: #17a8e3;
-    font-size: 1.3em;
+    color: white;
 }
 
 .header-menu {
@@ -26,7 +22,7 @@
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .nav-link:hover {
@@ -35,7 +31,7 @@
 
 .sticky-navbar {
     position: fixed;
-    background: white;
+    background: #212028;
     width: 100%;
     z-index: 999;
 }

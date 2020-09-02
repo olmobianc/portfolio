@@ -1,6 +1,13 @@
+.background-image {
+    background-image: url('/src/media/IMG_7318.png.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .intro {
-    padding: 13em 0;
+    padding: 13em 0 18em;
     text-align: center;
+    color: white;
 }
 
 .intro-text {
@@ -9,17 +16,13 @@
     font-weight: 500;
 }
 
-.blue-underline {
-    text-decoration: underline #17a8e3;
-}
-
 .intro-sub-title {
     font-size: 24px;
     padding: 24px 0;
 }
 
 .social-links {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .social-links-list {
@@ -28,14 +31,15 @@
 
 .social-link-element {
     display: inline-block;
-    padding: 10px 40px;
+    padding: 10px 20px;
 }
 
 .social-icon {
     font-size: 40px;
-    color: #000;
+    color: white;
 }
 
 .social-icon:hover {
-    color: #17a8e3;
+    color: #c5610f;
+    
 }
