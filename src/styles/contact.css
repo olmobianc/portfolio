@@ -50,6 +50,12 @@
     font-size: 15px;
 }
 
+.my-mail-info {
+    margin: 10px 0;
+    color: #8a959e;
+    font-size: 15px;
+}
+
 .contact-button {
     width: 200px;
     margin: 10px 5px;
