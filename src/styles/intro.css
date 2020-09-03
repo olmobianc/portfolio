@@ -7,16 +7,17 @@
 .intro {
     padding: 13em 0 18em;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .intro-text {
     font-size: 45px;
     line-height: 70px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .intro-sub-title {
+    font-family: cursive;
     font-size: 24px;
     padding: 24px 0;
 }
@@ -36,10 +37,20 @@
 
 .social-icon {
     font-size: 40px;
-    color: white;
+    font-weight: 700;
+    color: black;
 }
 
 .social-icon:hover {
     color: #c5610f;
     
+}
+
+.brown-hover {
+    color: white;
+    text-decoration: none;
+}
+
+.brown-hover:hover {
+    color: #c5610f;
 }
