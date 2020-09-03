@@ -1,4 +1,4 @@
-// Function that add class 'active' to section when near top of viewport
+/* Function that add class 'active' to section when near top of viewport
 function makeActiveClasses() {
     for (const section of sections) {
         const rect = section.getBoundingClientRect(); //get Rectangle container for each section
