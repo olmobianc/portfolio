@@ -8,24 +8,24 @@
 }
 
 .download-resume {
-    padding: 12px 20px;
-    margin: 75px 0 50px;
-    opacity: 90%;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 30px;
+    text-align: center;
+    background: #c5610f;
+    font-size: 14px;
+    color: #fff;
     font-weight: 600;
-    color: #000000;
-    border: 4px solid black;
-    background: #F7932D linear-gradient(251.42deg, #F7932D 9.99%, #FFC700 100%);
+    border-radius: 3px;
+    padding: 20px 40px;
+    border: 0;
+    margin: 90px 0 0 0;
+    cursor: pointer;
 }
 
 .download-resume:hover {
-    opacity: 100%;
+    background-color: #ce8040;
 }
 
 .line-resume-container {
-    background: #212028;
+    background: #3d38d6;;
     color: white;
     padding-bottom: 150px;
 }
