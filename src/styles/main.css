@@ -43,7 +43,6 @@ body {
 }
 
 .blue-underline {
-    /*text-decoration: underline #17a8e3;*/
     text-decoration: underline #c5610f;
 }
 
@@ -51,3 +50,6 @@ body {
     border-bottom: 3px solid #17a8e3;
 }
 
+.cursive {
+    text-decoration: underline #c5610f;
+}
