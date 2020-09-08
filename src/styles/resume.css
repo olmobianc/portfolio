@@ -28,4 +28,10 @@
     background: #3d38d6;;
     color: white;
     padding-bottom: 150px;
+    overflow-x: hidden;
+}
+
+#canvas {
+    border: 1px solid #d3d3d3;
+    color: white;
 }
