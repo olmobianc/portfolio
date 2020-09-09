@@ -1,7 +1,7 @@
 import { makeSmoothScrolling } from "../src/js/makeSmoothScrolling"
 import { addBorder } from "../src/js/addNavabarBorder"
 import { addResumeArrow } from "../src/js/resumeCanvas"
-import "./styles/main.css"
+import "./styles/main.scss"
 
 // Scroll to section on link click
 document.addEventListener('DOMContentLoaded', makeSmoothScrolling);
