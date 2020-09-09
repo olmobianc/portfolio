@@ -14,15 +14,19 @@ module.exports = {
                 ], 
             },
             {
+                test: /\.html$/,
+                use: ["html-loader"],
+            },
+            {
                 test: /\.(png|jpe?g|gif)$/i,
-                use: [
+                use: 
                         {
                             loader: 'file-loader',
                             options: {
-                                outputPath: '/dist',  //needed to display the background image
+                                name: "[name].[hash].[ext]",
+                                outputPath: 'images',  //needed to display the background image
                             }    
                         },
-                ],
             },
         ],
     },
