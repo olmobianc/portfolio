@@ -4,7 +4,8 @@
   "description": "This project consisted on creating my personal Website, a web application built with HTML/CSS/javascript, where I could experiment different technologies for both FrontEnd and BackEnd, and build a better understanding of the Web principle applications. During the creation of this project I faced several obstacles and difficulties that helped me grow as a Web Developer and become more confident with the tecnhologies behind it.\r The website contains project pages, written articles, and is mainly a place where I can openly share my passions. The goal is to create a page for every project, making it easy for users to download my programs for free, leave feedback, and connect with like minded individuals.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js",
+    "build-dev": "webpack-dev-server --open --config webpack.dev.js",
+    "build-prod": "webpack --config webpack.prod.js",
     "test": "jest"
   },
   "repository": {
@@ -26,7 +27,9 @@
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4"
   },
   "dependencies": {
     "file-loader": "^6.1.0",
