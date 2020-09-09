@@ -42,15 +42,11 @@
 }
 
 .social-icon:hover {
-    color: #c5610f;
+    color: $main-color;
     
 }
 
 .brown-hover {
-    color: white;
+    color: $main-color;
     text-decoration: none;
-}
-
-.brown-hover:hover {
-    color: #c5610f;
 }

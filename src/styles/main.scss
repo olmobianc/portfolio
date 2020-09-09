@@ -1,3 +1,7 @@
+$main-color: #E74C3C;
+$hover-color: #cc3625;
+$dark-color : #121b2b;
+
 @import "header.scss";
 @import "footer.scss";
 @import "intro.scss";
@@ -27,7 +31,7 @@ body {
 }
 
 .dark-background{
-    background: #212028;
+    background: $dark-color;
     color: white;
     padding: 120px 50px 150px;
 }
@@ -38,18 +42,18 @@ body {
 }
 
 .logo-end {
-    color: #c5610f;
+    color: $main-color;
     font-size: 1.3em;
 }
 
 .blue-underline {
-    text-decoration: underline #c5610f;
+    text-decoration: underline $main-color;
 }
 
 .blue-bottom-border {
-    border-bottom: 3px solid #17a8e3;
+    border-bottom: 3px solid $main-color;
 }
 
 .cursive {
-    text-decoration: underline #c5610f;
+    text-decoration: underline $main-color;
 }

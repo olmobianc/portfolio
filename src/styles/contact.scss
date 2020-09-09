@@ -67,7 +67,7 @@
 
 .item-button {
     text-align: center;
-    background: #c5610f;
+    background: $main-color;
     font-size: 14px;
     color: #fff;
     font-weight: 600;
@@ -81,5 +81,5 @@
 }
 
 .item-button:hover {
-    background-color: #ce8040;
+    background-color: $hover-color;
 }

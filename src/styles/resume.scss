@@ -9,7 +9,7 @@
 
 .download-resume {
     text-align: center;
-    background: #c5610f;
+    background: $main-color;
     font-size: 14px;
     color: #fff;
     font-weight: 600;
@@ -21,11 +21,11 @@
 }
 
 .download-resume:hover {
-    background-color: #ce8040;
+    background-color: $hover-color;
 }
 
 .line-resume-container {
-    background: #3d38d6;;
+    background: $dark-color;
     color: white;
     padding-bottom: 150px;
     overflow-x: hidden;
