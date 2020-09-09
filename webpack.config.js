@@ -4,7 +4,7 @@ module.exports = {
     mode: "development",
     entry: "./src/index.js",
     output: {
-        filename: "main.js",
+        filename: "main.[contentHash].js", //adding content Hash to prevent cache busting from browsers
         path: path.resolve(__dirname, "dist")
     },
     module: {
@@ -23,7 +23,7 @@ module.exports = {
                         {
                             loader: 'file-loader',
                             options: {
-                                outputPath: '/dist',
+                                outputPath: '/dist',  //needed to display the background image
                             }    
                         },
                 ],
