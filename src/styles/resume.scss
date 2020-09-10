@@ -31,7 +31,27 @@
     overflow-x: hidden;
 }
 
-#canvas {
-    border: 1px solid #d3d3d3;
+.titles {
+    font-size: 20px;
+}
+
+.path-title-container {
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.path-title {
     color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.resume-list {
+    margin: 0 0 90px 20px
+}
+
+.grey-text {
+    color: #6c7383;
+    margin-bottom: 20px;
+    font-size: 19px;
 }
