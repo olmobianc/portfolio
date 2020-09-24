@@ -57,3 +57,19 @@ body {
 .cursive {
     text-decoration: underline $main-color;
 }
+
+/*MOBILE*/
+@media(max-width:767px) {
+    .section-container {
+        margin: 0;
+    }
+    .dark-background{
+        padding: 30px 20px 70px;
+    }
+    .white-background {
+        padding: 30px 20px 70px;
+    }
+    .section-title {
+        font-size: 36px;
+    }
+}

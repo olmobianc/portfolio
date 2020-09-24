@@ -52,3 +52,33 @@
     visibility: hidden;
 }
 
+/*MOBILE*/
+@media(max-width:767px) {
+    .carousel-wrapper {
+        margin-top: 60px;
+    }
+    .carousel {
+        display: grid;
+        margin-top: 10px;
+        grid-template-columns: 1fr;
+        grid-gap: 36px;
+        grid-template-areas:
+        "left"
+        "mid"
+        "right"
+    }
+    .carousel-photo {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .project-info {
+        margin-left: 20px;
+    }
+    .project-number {
+        font-size: 16px;
+    }
+    .carousel-image-container {
+        text-align: center;
+    }
+}
+

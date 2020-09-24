@@ -45,3 +45,27 @@
     color: $main-color;
 }
 
+/*MOBILE*/
+@media(max-width:767px) {
+    .header-container {
+        display: block;
+        padding: 12px;
+        margin: 0;
+        width: auto;
+    }
+
+    .header-element {
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .header-logo {
+        font-size: 16px;
+    }
+
+    .sticky-navbar {
+        width: 100%;
+        z-index: 999;
+    }
+}
+

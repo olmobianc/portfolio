@@ -54,3 +54,21 @@
 .hover-underline:hover {
     text-decoration: underline;
 }
+
+/*MOBILE*/
+@media(max-width:767px) {
+    .intro {
+        padding: 8em 1.5em;
+    }
+    .intro-text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .intro-sub-title {
+        font-size: 18px;
+    }
+    .social-icon {
+        font-size: 28px;
+    }
+    
+}
