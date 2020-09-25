@@ -95,3 +95,11 @@
         width: 100%;
     }
 }
+
+/*TABLET*/
+@media(min-width: 768px) and (max-width: 1100px) {
+    .input-half {
+        display: inline-block;
+        width: 100%;
+    }
+}

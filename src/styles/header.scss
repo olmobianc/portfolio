@@ -69,3 +69,15 @@
     }
 }
 
+/*TABLET*/
+@media(min-width: 768px) and (max-width: 1100px) {
+    .header-container {
+        padding: 12px;
+        width: 100%;
+    }
+    .header-element {
+        margin: 5px;
+        font-size: 15px;
+    }
+}
+

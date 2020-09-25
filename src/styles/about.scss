@@ -55,3 +55,21 @@
         margin-bottom: 30px;
     }
 }
+
+/*TABLET*/
+@media(min-width: 768px) and (max-width: 1100px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 60px;
+        margin-top: 60px;
+        grid-template-areas:
+        "left"
+        "right";
+    }
+    .about-image {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+}

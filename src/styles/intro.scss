@@ -70,5 +70,11 @@
     .social-icon {
         font-size: 28px;
     }
-    
+}
+
+/*TABLET*/
+@media(min-width: 768px) and (max-width: 1100px) {
+    .intro {
+        padding: 14em 0 14em;
+    }
 }
