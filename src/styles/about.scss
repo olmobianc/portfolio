@@ -17,13 +17,13 @@
 
 .about-image {
     width: 100%;
-    height: 100%;
+    height: auto;
     box-shadow: 4px 6px 8px 4px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-second-paragraph {
-    font-size: 19px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 32px;
     font-weight: 300;
 }
 
@@ -68,8 +68,21 @@
         "right";
     }
     .about-image {
-        width: 90%;
-        height: 100%;
+        width: 70%;
+        height: auto;
         margin-bottom: 50px;
+    }
+}
+
+/*TABLET*/
+@media(min-width: 1101px) and (max-width: 1400px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 60px;
+        margin-top: 60px;
+        grid-template-areas:
+        "left"
+        "right";
     }
 }
