@@ -84,3 +84,14 @@
 .item-button:hover {
     background-color: $hover-color;
 }
+
+/*MOBILE*/
+@media(max-width:767px) {
+    .item-button {
+        width: 100%;
+    }
+    .input-half {
+        display: inline-block;
+        width: 100%;
+    }
+}
