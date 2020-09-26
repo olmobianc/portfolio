@@ -15,8 +15,8 @@
 }
 
 .carousel-photo {
-    width: 80%;
-    height: 87%;
+    width: 70%;
+    height: 79%;
     margin-bottom: 30px;
     transition: transform .2s; /*transform will aplly after 0.2 sec*/
 }
@@ -46,7 +46,7 @@
     position: absolute;
     color: rgb(53, 48, 48);
     top: 15px;
-    left: 36px;
+    left: 0;
     font-size: 20px;
     font-weight: 600;
     visibility: hidden;
