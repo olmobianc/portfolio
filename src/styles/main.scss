@@ -1,5 +1,6 @@
-$main-color: #c74234;
-$hover-color: #cc3625;
+//$main-color: #c74234;
+$main-color: #0d88ec;
+$hover-color: #3292e0;
 $dark-color : #171c27;
 
 @import "header.scss";
@@ -59,11 +60,8 @@ body {
 }
 
 //CLASSES ADDED DINAMICALLY WITH JS
-.active-class {
-    background: crimson;
-}
 .active {
-    color: rgb(228, 94, 4);
+    color: $main-color;
     border-bottom: 3px solid $main-color;
 }
 
