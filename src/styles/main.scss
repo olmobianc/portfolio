@@ -58,6 +58,15 @@ body {
     text-decoration: underline $main-color;
 }
 
+//CLASSES ADDED DINAMICALLY WITH JS
+.active-class {
+    background: crimson;
+}
+.active {
+    color: rgb(228, 105, 4);
+    border-bottom: 3px solid $main-color;
+}
+
 /*MOBILE*/
 @media(max-width:767px) {
     .section-container {

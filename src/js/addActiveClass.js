@@ -1,5 +1,8 @@
-/* Function that add class 'active' to section when near top of viewport
-function makeActiveClasses() {
+const sections = document.getElementsByClassName("box");
+const navlinks = document.getElementsByClassName("nav-link");
+
+/* Function that add class 'active' to section when near top of viewport*/
+export function makeActiveClasses() {
     for (const section of sections) {
         const rect = section.getBoundingClientRect(); //get Rectangle container for each section
 
@@ -16,9 +19,10 @@ function makeActiveClasses() {
             }
         //tablet and desktop    
         } else {
-            if (rect.bottom <= window.innerHeight) {
+            if (rect.bottom <= window.innerHeight + 300) {
                 section.classList.add("active-class");
                 var whichSection = section.getAttribute("id");
+                console.log(whichSection);
             }
             else {
                 section.classList.remove("active-class");
