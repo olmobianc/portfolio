@@ -1,5 +1,8 @@
+//import { database } from "../index"
+//var messagesRef = database.ref('messages');
+import { storeData } from "../index"
+
 const form = document.getElementById("contact-form");
-//Listening for form submission
 form.addEventListener("submit", submitForm);
 
 //Submit Form
@@ -13,8 +16,7 @@ export function submitForm(e) {
     const answer = getInputValues('form-anti-bots-answer');
     const message = getInputValues('form-body');
 
-    console.log(name);
-
+    storeData(name, email, subject, answer, message);
 }
 
 //Function to get input values
