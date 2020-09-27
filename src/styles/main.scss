@@ -1,7 +1,8 @@
 //$main-color: #c74234;
 $main-color: #ce580ae5;
 $hover-color: #df8600;
-$dark-color : #171c27;
+//$dark-color : #171c27;
+$dark-color: rgba(0, 0, 0, 0.9);
 
 @import "header.scss";
 @import "footer.scss";
