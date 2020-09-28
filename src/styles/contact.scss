@@ -25,13 +25,13 @@
 .input-text input[type=email],
 .input-text input[type=name], 
 .input-text input[type=subject], 
-.input-text input[type=check], 
+.input-text input[type=number], 
 .input-text input[type=text] {
     background: #fff;
     width: 100%;
     line-height: 1em;
     border-radius: 3px;
-    padding: 13px 15px 13px 0px;
+    padding: 13px 15px 13px 15px;
     margin-right: 10px;
     border: 1px solid #d4d7da;
     color: #464d5d;
@@ -44,7 +44,7 @@
     height: 250px;
     line-height: 1em;
     border-radius: 3px;
-    padding: 13px 15px 13px 0px;
+    padding: 13px 15px 13px 15px;
     margin-right: 10px;
     border: 1px solid #d4d7da;
     color: #464d5d;
@@ -83,6 +83,19 @@
 
 .item-button:hover {
     background-color: $hover-color;
+}
+
+#success-message-container {
+    background: #55b369;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.success-message {
+    font-weight: 400;
 }
 
 /*MOBILE*/

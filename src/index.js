@@ -1,7 +1,7 @@
 import { makeSmoothScrolling } from "../src/js/makeSmoothScrolling"
 import { addBorder } from "../src/js/addNavabarBorder"
 import { makeActiveClasses } from "../src/js/addActiveClass"
-import { submitForm } from "../src/js/storeData"
+import { submitForm } from "./js/submitForm"
 import * as firebase from "firebase/app";
 import "firebase/database"
 import "./styles/main.scss"
@@ -9,7 +9,6 @@ import "./styles/main.scss"
 document.addEventListener('DOMContentLoaded', makeSmoothScrolling);
 document.addEventListener('scroll', makeActiveClasses);
 document.addEventListener('scroll', addBorder);
-document.addEventListener('DOMContentLoaded', submitForm);
 
 var firebaseConfig = {
         apiKey: "AIzaSyD96850tS2xjFVTxO9kFxgHBPxiKH8XVbw",
@@ -36,9 +35,7 @@ export function storeData(name, email, subject, answer, message){
         });
 }
 
-
 export { makeSmoothScrolling }
 export { makeActiveClasses }
 export { addBorder }
 export { submitForm }
-export { database }
