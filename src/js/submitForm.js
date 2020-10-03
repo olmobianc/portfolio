@@ -27,7 +27,7 @@ export function submitForm(e) {
     //Hide message after 3 sec
     setTimeout(function() {
         confirmationMessage.style.visibility = "hidden";
-    },3000);
+    },4000);
 
     //Reset Form
     form.reset();

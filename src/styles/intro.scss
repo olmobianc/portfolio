@@ -58,7 +58,7 @@
 /*MOBILE*/
 @media(max-width:767px) {
     .intro {
-        padding: 8em 1.5em;
+        padding: 10em 1.5em 8em;
     }
     .intro-text {
         font-size: 30px;
@@ -75,6 +75,6 @@
 /*TABLET*/
 @media(min-width: 768px) and (max-width: 1100px) {
     .intro {
-        padding: 14em 0 14em;
+        padding: 16em 0 12em;
     }
 }

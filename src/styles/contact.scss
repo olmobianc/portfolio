@@ -93,9 +93,12 @@
     margin-top: 10px;
     visibility: hidden;
 }
-
 .success-message {
     font-weight: 400;
+}
+
+#contact-me {
+    padding-bottom: 80px;
 }
 
 /*MOBILE*/
@@ -106,6 +109,9 @@
     .input-half {
         display: inline-block;
         width: 100%;
+    }
+    #contact-me {
+        padding-bottom: 40px;
     }
 }
 

@@ -68,13 +68,13 @@
         "right";
     }
     .about-image {
-        width: 70%;
+        width: 65%;
         height: auto;
         margin-bottom: 50px;
     }
 }
 
-/*TABLET*/
+/*TABLET-DESKTOP*/
 @media(min-width: 1101px) and (max-width: 1400px) {
     .about {
         display: grid;
@@ -84,5 +84,10 @@
         grid-template-areas:
         "left"
         "right";
+    }
+    .about-image {
+        width: 60%;
+        height: auto;
+        margin-bottom: 50px;
     }
 }
