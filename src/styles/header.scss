@@ -1,6 +1,6 @@
 .header-container {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 30px auto;
 }
 
@@ -72,12 +72,35 @@
 /*TABLET*/
 @media(min-width: 768px) and (max-width: 1100px) {
     .header-container {
-        padding: 12px;
-        width: 100%;
+        margin: 0;
     }
-    .header-element {
+    .header-menu {
+        position: relative;
+    }
+    .menu {
+        display: none;
+        position: fixed;
+        background: rgba(0,0,0,.8);
+     }
+     .header-element {
+        font-size: 60px;
+        text-align: center;
+    }
+    .header-logo {
+        padding: 30px;
+        margin-left: 80px;
+    }
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
         margin: 5px;
-        font-size: 15px;
+    }
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        top: 40%;
+        right: -100px;
     }
 }
 
