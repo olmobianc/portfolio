@@ -26,10 +26,6 @@
     transform: scale(1.2);
 }
 
-.carousel-photo:hover ~ #hidden-skills { /* triggering sibling class on hover */
-    visibility: visible;
-}
-
 .project-info {
     margin-left: 40px;
 }
