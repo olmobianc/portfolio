@@ -1,11 +1,11 @@
 .header-container {
     display: flex;
-    width: 80%;
-    margin: 30px auto;
+    min-height: 12vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-logo {
-    flex: 1;
     letter-spacing: 1px;
     color: white;
 }
@@ -67,6 +67,7 @@
         width: 100%;
         z-index: 999;
     }
+    
 }
 
 /*TABLET*/
@@ -75,20 +76,22 @@
         margin: 0;
     }
     .header-menu {
+        flex: 1;
         position: relative;
+    }
+    .header-logo {
+        flex: 8;
+        margin-left: 50px;
     }
     .menu {
         display: none;
-        position: fixed;
+        height: 100vh;
         background: rgba(0,0,0,.8);
      }
      .header-element {
-        font-size: 60px;
+        font-size: 30px;
         text-align: center;
-    }
-    .header-logo {
-        padding: 30px;
-        margin-left: 80px;
+        top: 12vh
     }
     .line {
         width: 30px;
@@ -99,8 +102,7 @@
     .hamburger {
         position: absolute;
         cursor: pointer;
-        top: 40%;
-        right: -100px;
+        top: -10px;
     }
 }
 
