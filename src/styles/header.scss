@@ -86,7 +86,7 @@
     .menu {
         display: none;
         height: 100vh;
-        background: rgba(0,0,0,.8);
+        background: rgba(0,0,0,.2);
      }
      .header-element {
         font-size: 30px;
@@ -98,11 +98,20 @@
         height: 3px;
         background: white;
         margin: 5px;
+        transition: all .5s ease-in-out;
     }
     .hamburger {
         position: absolute;
         cursor: pointer;
         top: -10px;
+        transition: all .5s ease-in-out;
+    }
+    .open {
+        top: 0;
+    }
+    #menuButton:nth-child(2).open {
+        transform: translate(100px, 20px);
+        background: transparent;
     }
 }
 

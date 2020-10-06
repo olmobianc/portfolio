@@ -10,7 +10,6 @@ import "./styles/main.scss"
 document.addEventListener('DOMContentLoaded', makeSmoothScrolling);
 document.addEventListener('scroll', makeActiveClasses);
 document.addEventListener('scroll', addBorder);
-document.addEventListener('click', openMenu)
 
 var firebaseConfig = {
         apiKey: "AIzaSyD96850tS2xjFVTxO9kFxgHBPxiKH8XVbw",

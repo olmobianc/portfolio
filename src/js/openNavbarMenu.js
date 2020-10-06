@@ -1,10 +1,21 @@
-const hamburger = document.getElementById("hamburger");
+const menuButton = document.getElementById("menuButton");
 const menu = document.getElementById("menu");
 const body = document.querySelector("body");
+let menuOpen = false;
 
-hamburger.addEventListener("click", openMenu);
+menuButton.addEventListener("click", openMenu);
 
 export function openMenu() {
-    menu.style.display = "block";
-    //body.style.overflow = "hidden";
+    if(menuOpen == false) {
+        menu.style.display = "block";
+        menuButton.classList.add('open');
+        
+        //body.style.overflow = "hidden";
+        menuOpen = true;
+    }
+    else {
+        menuButton.classList.remove("open");
+        menuOpen = false;
+    }
+    
 }
