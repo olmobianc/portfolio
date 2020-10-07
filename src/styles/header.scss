@@ -47,32 +47,9 @@
 /*MOBILE*/
 @media(max-width:767px) {
     .header-container {
+        margin: 0;
         display: block;
-        padding: 12px;
-        margin: 0;
-        width: auto;
-    }
-
-    .header-element {
-        margin: 5px;
-        font-size: 15px;
-    }
-
-    .header-logo {
-        font-size: 16px;
-    }
-
-    .sticky-navbar {
-        width: 100%;
-        z-index: 999;
-    }
-    
-}
-
-/*TABLET*/
-@media(min-width: 768px) and (max-width: 1100px) {
-    .header-container {
-        margin: 0;
+        min-height: 10vh;
     }
     .header-menu {
         flex: 1;
@@ -80,21 +57,22 @@
     }
     .header-logo {
         flex: 8;
-        margin-left: 50px;
+        margin-left: 20px;
+        font-size: 24px;
     }
     .menu {
         display: none;
         height: 100vh;
-        width: 50vw;
+        width: 100vw;
         background: rgba(0,0,0,.2);
     }
     .header-element {
         font-size: 30px;
-        padding: 50px;
+        padding: 40px;
         margin: 0;
         display: block;
         text-align: center;
-        }
+    }
     .line {
         width: 30px;
         height: 3px;
@@ -105,8 +83,8 @@
     .hamburger {
         position: absolute;
         cursor: pointer;
-        top: -10px;
-        transition: all .5s ease-in-out;
+        top: -28px;
+        right: 10px;
     }
     .open {
         top: 0;
@@ -120,6 +98,67 @@
     }
     .line:nth-child(2) {
         background: red;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+
+/*TABLET*/
+@media(min-width: 768px) and (max-width: 1100px) {
+    .header-container {
+        margin: 0;
+        min-height: 10vh;
+    }
+    .header-menu {
+        flex: 1;
+        position: relative;
+    }
+    .header-logo {
+        font-size: 36px;
+        flex: 8;
+        margin-left: 50px;
+    }
+    .menu {
+        display: none;
+        height: 100vh;
+        width: 100vw;
+        background: rgba(0,0,0,.2);
+    }
+    .header-element {
+        font-size: 40px;
+        padding: 70px;
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        top: -16px;
+    }
+    .open {
+        top: 0;
+    }
+    .menu-active {
+        display: block;
+    }
+    #menuButton.open {
+        right: 15px;
+        top: 18px;
+    }
+    .line:nth-child(2) {
+        background: red;
+    }
+    .hidden {
+        display: none;
     }
 }
 
