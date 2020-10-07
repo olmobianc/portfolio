@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-around;
 }
-
 .header-logo {
     letter-spacing: 1px;
     color: white;
@@ -86,13 +85,16 @@
     .menu {
         display: none;
         height: 100vh;
+        width: 50vw;
         background: rgba(0,0,0,.2);
-     }
-     .header-element {
-        font-size: 30px;
-        text-align: center;
-        top: 12vh
     }
+    .header-element {
+        font-size: 30px;
+        padding: 50px;
+        margin: 0;
+        display: block;
+        text-align: center;
+        }
     .line {
         width: 30px;
         height: 3px;
@@ -109,9 +111,15 @@
     .open {
         top: 0;
     }
-    #menuButton:nth-child(2).open {
-        transform: translate(100px, 20px);
-        background: transparent;
+    .menu-active {
+        display: block;
+    }
+    #menuButton.open {
+        right: 15px;
+        top: 18px;
+    }
+    .line:nth-child(2) {
+        background: red;
     }
 }
 
