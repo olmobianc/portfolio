@@ -88,6 +88,20 @@
     }
     .open {
         top: 0;
+        transform: translateX(-100px);
+        transition: all .5s ease-in-out;
+        .line:nth-child(1) {
+            transform: rotate(45deg) translate(20px, -15px);
+            transition: all .5s ease-in-out;
+        }
+        .line:nth-child(2) {
+            display: none;
+            transition: all .5s ease-in-out;
+        }
+        .line:nth-child(3) {
+            transform: rotate(-45deg) translate(20px, 15px);
+            transition: all .5s ease-in-out;
+        }
     }
     .menu-active {
         display: block;
@@ -95,9 +109,6 @@
     #menuButton.open {
         right: 15px;
         top: 18px;
-    }
-    .line:nth-child(2) {
-        background: red;
     }
     .hidden {
         display: none;
@@ -138,6 +149,7 @@
         height: 3px;
         background: white;
         margin: 5px;
+        transition: all .5s ease-in-out;
     }
     .hamburger {
         position: absolute;
@@ -146,6 +158,20 @@
     }
     .open {
         top: 0;
+        transform: translateX(-100px);
+        transition: all .5s ease-in-out;
+        .line:nth-child(1) {
+            transform: rotate(45deg) translate(20px, -15px);
+            transition: all .5s ease-in-out;
+        }
+        .line:nth-child(2) {
+            display: none;
+            transition: all .5s ease-in-out;
+        }
+        .line:nth-child(3) {
+            transform: rotate(-45deg) translate(20px, 15px);
+            transition: all .5s ease-in-out;
+        }
     }
     .menu-active {
         display: block;
@@ -153,9 +179,6 @@
     #menuButton.open {
         right: 15px;
         top: 18px;
-    }
-    .line:nth-child(2) {
-        background: red;
     }
     .hidden {
         display: none;
