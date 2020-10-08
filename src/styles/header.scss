@@ -88,7 +88,7 @@
     }
     .open {
         top: 0;
-        transform: translateX(-100px);
+        transform: translateX(-50px);
         transition: all .5s ease-in-out;
         .line:nth-child(1) {
             transform: rotate(45deg) translate(20px, -15px);

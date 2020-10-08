@@ -1,6 +1,6 @@
 const menuButton = document.getElementById("menuButton");
 const menu = document.getElementById("menu");
-const navLinks = document.getElementsByClassName("nav-link");
+const navLinks = document.getElementsByClassName("header-element");
 const body = document.querySelector("body");
 const title = document.getElementsByClassName("header-logo");
 let menuOpen = false;
@@ -21,7 +21,7 @@ export function openMenu() {
 
         //LINKS
         for(let i = 0; i < navLinks.length; i++) {
-            navLinks[0].addEventListener("click", function() {
+            navLinks[i].addEventListener("click", function() {
                 menu.classList.remove("menu-active");
                 menuButton.classList.remove("open");
                 body.classList.remove("no-overflow");
