@@ -18,7 +18,7 @@ export function submitForm(e) {
     const message = getInputValues('form-body');
 
     storeData(name, email, subject, answer, message);
-    
+
     //Show message after 0.5 sec
     setTimeout(function() {
         confirmationMessage.style.visibility = "visible";
