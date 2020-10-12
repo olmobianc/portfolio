@@ -2,6 +2,7 @@ import { makeSmoothScrolling } from "../src/js/makeSmoothScrolling"
 import { addBorder } from "../src/js/addNavabarBorder"
 import { makeActiveClasses } from "../src/js/addActiveClass"
 import { openMenu } from "../src/js/openNavbarMenu"
+import { initMap } from "../src/js/initMap"
 import { submitForm } from "./js/submitForm"
 import * as firebase from "firebase/app";
 import "firebase/database"
@@ -40,4 +41,5 @@ export { makeSmoothScrolling }
 export { makeActiveClasses }
 export { addBorder }
 export { openMenu }
+export { initMap }
 export { submitForm }
