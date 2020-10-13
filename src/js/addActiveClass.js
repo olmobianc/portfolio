@@ -19,7 +19,7 @@ export function makeActiveClasses() {
             }
         //tablet and desktop    
         } else {
-            if (rect.bottom <= window.innerHeight + 990) {
+            if (rect.bottom <= window.innerHeight + 1050) {
                 section.classList.add("active-class");
                 var whichSection = section.getAttribute("id");
             }
