@@ -14,17 +14,17 @@ export function submitForm(e) {
     const name = getInputValues('form-name');
     const email = getInputValues('form-email');
     const subject = getInputValues('form-subject');
-    const answer = getInputValues('form-anti-bots-answer');
+    const answer = getInputValues('location');
     const message = getInputValues('form-body');
 
     storeData(name, email, subject, answer, message);
 
-    //Show message after 0.5 sec
+    //Show message after 1 sec
     setTimeout(function() {
         confirmationMessage.style.visibility = "visible";
-    },500);
+    },1000);
 
-    //Hide message after 3 sec
+    //Hide message after 4 sec
     setTimeout(function() {
         confirmationMessage.style.visibility = "hidden";
     },4000);

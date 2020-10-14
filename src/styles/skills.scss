@@ -22,7 +22,7 @@
 }
 
 /*MOBILE*/
-@media(max-width:767px) {
+@media(max-width:768px) {
     .skills-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -47,7 +47,7 @@
 }
 
 /*TABLET*/
-@media(min-width: 768px) and (max-width: 1100px) {
+@media(min-width:768px) and (max-width:1100px) {
     .skills-container {
         display: grid;
         grid-template-columns: 1fr 1fr;

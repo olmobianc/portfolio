@@ -3,7 +3,7 @@ import { addBorder } from "../src/js/addNavabarBorder"
 import { makeActiveClasses } from "../src/js/addActiveClass"
 import { openMenu } from "../src/js/openNavbarMenu"
 import { initMap } from "../src/js/initMap"
-import { submitForm } from "./js/submitForm"
+import { submitForm } from "../src/js/submitForm"
 import * as firebase from "firebase/app";
 import "firebase/database"
 import "./styles/main.scss"

@@ -5,7 +5,6 @@ var script = document.createElement('script');
 script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC3S9JPZCCmuxmEm2hE3-HizOM2_Zg3kwU&callback=initMap';
 script.defer = true;
 
-// Attach your callback function to the `window` object
 window.initMap = function() {   
 //export function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
@@ -181,4 +180,3 @@ window.initMap = function() {
 
 // Append the 'script' element to 'head'
 document.head.appendChild(script);
-      
