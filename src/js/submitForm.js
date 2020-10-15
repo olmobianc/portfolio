@@ -1,5 +1,3 @@
-//import { database } from "../index"
-//var messagesRef = database.ref('messages');
 import { storeData } from "../index"
 
 const confirmationMessage = document.getElementById("success-message-container");

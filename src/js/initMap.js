@@ -1,4 +1,5 @@
 let map;
+let marker;
 
 // Create the script tag, set the appropriate attributes
 var script = document.createElement('script');
@@ -171,12 +172,24 @@ window.initMap = function() {
               } 
         ]
     });
-    new google.maps.Marker({
+    marker = new google.maps.Marker({
         position: { lat: 45.464664, lng: 9.188540 },
         map:map,
+        draggable: true,
+        animation: google.maps.Animation.DROP,
         icon:'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
     });
+    marker.addListener("click", toggleBounce);
 };
+
+// Function that activates the bouncing
+function toggleBounce() {
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
 
 // Append the 'script' element to 'head'
 document.head.appendChild(script);
