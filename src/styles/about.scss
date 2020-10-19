@@ -27,6 +27,16 @@
     font-weight: 300;
 }
 
+/*PROFILE IMAGE*/
+@media(min-width: 450px) and (max-width: 767px) {
+    .about-image {
+        width: 65% !important;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
 /*MOBILE*/
 @media(max-width:768px) {
     .about-first-paragraph {
