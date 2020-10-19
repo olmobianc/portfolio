@@ -10,12 +10,23 @@ module.exports = {
                 use: ["html-loader"],
             },
             {
-                test: /\.(png|jpe?g|gif|pdf)$/i,
+                test: /\.(png|jpe?g|gif)$/i,
                 use: 
                         {
                             loader: 'file-loader',
                             options: {
                                 name: "[name].[hash].[ext]",
+                                outputPath: 'images',  //needed to display the background image
+                            }    
+                        },
+            },
+            {
+                test: /\.(pdf)$/i,
+                use: 
+                        {
+                            loader: 'file-loader',
+                            options: {
+                                name: "[name].[ext]",
                                 outputPath: 'images',  //needed to display the background image
                             }    
                         },
