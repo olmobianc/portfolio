@@ -7,6 +7,7 @@ import { submitForm } from "../src/js/submitForm"
 import * as firebase from "firebase/app";
 import "firebase/database"
 import "./styles/main.scss"
+import "./media/CV . olmo_biancardi_compress.pdf"
 
 document.addEventListener('DOMContentLoaded', makeSmoothScrolling);
 document.addEventListener('scroll', makeActiveClasses);
