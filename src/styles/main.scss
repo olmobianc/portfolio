@@ -54,6 +54,7 @@ body {
 
 .blue-underline {
     text-decoration: underline $main-color;
+    -webkit-text-decoration: underline $main-color;
 }
 
 .blue-bottom-border {
