@@ -8,13 +8,12 @@ let menuOpen = false;
 menuButton.addEventListener("click", openMenu);
 
 export function openMenu() {
-    if(menuOpen == false) {
+    if(menuOpen === false) {
 
         //TABLET
         menu.classList.add("menu-active");
         menuButton.classList.add("open");
         body.classList.add("no-overflow");
-        menuOpen = true;
 
         //MOBILE
         title[0].classList.add("hidden");
@@ -26,15 +25,19 @@ export function openMenu() {
                 menuButton.classList.remove("open");
                 body.classList.remove("no-overflow");
                 title[0].classList.remove("hidden");
+                menuOpen = false;
             });
         }
+        menuOpen = true;
+        console.log("You just clicked, the menu is now open", menuOpen)
     }
     else {
+        menuOpen = false;
+        console.log("Now its closed", menuOpen)
         //TABLET
         menu.classList.remove("menu-active");
         menuButton.classList.remove("open");
         body.classList.remove("no-overflow");
-        menuOpen = false;
 
         //MOBILE
         title[0].classList.remove("hidden");
